@@ -1,0 +1,21 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*~
+.DS_Store
+
+# ---- Runtime / generated output & scraped data ----
+output/
+logs/
+*.log
+
+# ---- Sensitive config: never commit real API keys ----
+config.json
+*.local.json
+
+# ---- Local artifacts not part of the scraper tool ----
+proposal.json
+
+# ---- Local launcher helpers (Windows-specific, machine-scoped) ----
+/_detect_python.cmd
+/_hide_launch.vbs

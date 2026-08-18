@@ -1,0 +1,10 @@
+{
+  "ai": {
+    "api_key": "sk-mock-test",
+    "base_url": "http://127.0.0.1:8766/v1",
+    "model": "mock-model",
+    "temperature": 0.2,
+    "timeout": 30,
+    "max_chars": 20000
+  }
+}
